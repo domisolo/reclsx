@@ -119,7 +119,7 @@ Works with `Webpack` `Rollup` `Taro` etc.
 ### For Esbuild
 
 ```javascript
-# via JS
+// via JS
 require("esbuild").buildSync({
   entryPoints: ["app.jsx"],
   bundle: true,
