@@ -11,6 +11,9 @@
 ## Example
 
 ```javascript
+import React from 'react';
+// no need to import classnames or clsx
+
 function Header(props) {
   ...
   return (
