@@ -1,6 +1,6 @@
 import "react";
 
-type ClassName =
+export type ClassName =
   | string
   | boolean
   | null

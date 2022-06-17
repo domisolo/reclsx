@@ -1,7 +1,8 @@
 {
   "name": "reclsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamically classnames in React",
+  "types": "types/jsx-runtime.d.ts",
   "files": [
     "dist",
     "jsx-runtime",
