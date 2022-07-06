@@ -1,5 +1,5 @@
 {
   "main": "../dist/jsx-runtime.js",
   "module": "../dist/jsx-runtime.js",
-  "types": "../types/jsx-runtime.d.ts"
+  "types": "../types/index.d.ts"
 }

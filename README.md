@@ -10,31 +10,7 @@
 
 ## Example
 
-```javascript
-import React from 'react';
-// no need to import classnames or clsx
-
-function Header(props) {
-  ...
-  return (
-    <header
-      className={[
-        'flex h-50px',
-        'border rounded',
-        { 'justify-between': props.between }
-        { 'items-center justify-center': props.center }
-      ]}
-    >
-    </header>
-  )
-}
-
-// Apply
-<Header center />
-
-// Output
-<header class="flex h-50px border rounded items-center justify-center"></header>
-```
+![example](/docs/example.png)
 
 ## Install
 
@@ -131,7 +107,8 @@ require("esbuild").buildSync({
 
 ## Support
 
-React >= 17.0.0
+@babel/preset-react >= v7.9.0
+<br>jsxRuntime: "automatic"
 
 ## LICENSE [MIT](LICENSE)
 
