@@ -6,7 +6,7 @@
 [![NPM Weekly Downloads](https://badgen.net/npm/dw/reclsx)](https://www.npmjs.com/package/reclsx)
 [![License](https://badgen.net/npm/license/reclsx)](https://www.npmjs.com/package/reclsx)
 
-> Dynamically `classnames` in `React`<br>Based on [react/jsx-runtime](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)<br>Using [classNames/dedupe](https://github.com/JedWatson/classnames#alternate-dedupe-version)
+> Dynamically `classnames` in `React`<br>Based on [react/jsx-runtime](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)<br>Using [clsx](https://github.com/lukeed/clsx)
 
 ## Example
 
@@ -15,16 +15,19 @@
 ## Install
 
 ```bash
+# via pnpm
+$ pnpm i reclsx clsx
+
 # via npm
-$ npm i reclsx classnames
+$ npm i reclsx clsx
 
 # via yarn
-$ yarn add reclsx classnames
+$ yarn add reclsx clsx
 ```
 
 ## Usage
 
-The constructing `className` conditionally using [JedWatson/classnames](https://github.com/JedWatson/classnames), For detailed API options, please refer to [classNames/dedupe](https://github.com/JedWatson/classnames#alternate-dedupe-version)
+The constructing `className` conditionally using [lukeed/clsx](https://github.com/lukeed/clsx), For detailed API options, please refer to [clsx](https://github.com/lukeed/clsx?tab=readme-ov-file#clsx---)
 
 ```javascript
 // basic

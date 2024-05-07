@@ -1,4 +1,4 @@
-import classNames from "classnames/dedupe";
+import clsx from "clsx";
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 
@@ -13,7 +13,7 @@ const createClsxProps = (props: any) => {
   }
 
   const newProps: any = { ...props };
-  newProps.className = classNames(className);
+  newProps.className = clsx(className);
 
   return newProps;
 };

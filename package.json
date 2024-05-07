@@ -1,6 +1,6 @@
 {
   "name": "reclsx",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Dynamically classnames in React",
   "main": "dist/jsx-runtime.js",
   "module": "dist/jsx-runtime.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daniel-zd/reclsx.git"
+    "url": "git+https://github.com/domisooo/reclsx.git"
   },
   "keywords": [
     "react",
@@ -26,16 +26,16 @@
   "author": "Daniel Zhao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daniel-zd/reclsx/issues"
+    "url": "https://github.com/domisooo/reclsx/issues"
   },
-  "homepage": "https://github.com/daniel-zd/reclsx#readme",
+  "homepage": "https://github.com/domisooo/reclsx#readme",
   "peerDependencies": {
-    "classnames": "^2.3.1",
+    "clsx": "^2.1.1",
     "react": ">=17.0.0"
   },
   "devDependencies": {
-    "classnames": "^2.3.1",
-    "react": "^18.1.0",
-    "typescript": "^4.7.3"
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "typescript": "^5.4.5"
   }
 }
